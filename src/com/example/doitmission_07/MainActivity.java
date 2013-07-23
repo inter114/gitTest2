@@ -30,6 +30,8 @@ public class MainActivity extends Activity {
 	private void setMonthText() {
 		curYear = monthViewAdapter.getCurYear();
 		curMonth = monthViewAdapter.getCurMonth();
+		
+		monthText.setText(curYear+"년"+(curMonth+1)+"월");
 	}
 
 }
